@@ -18,4 +18,9 @@
  */
 + (UIImage *)imageWithFileName:(NSString *)name;
 
+// by me
++ (UIImage *)imageWithName:(NSString *)name;
++ (UIImage *)resizedImage:(NSString *)name;
++ (UIImage *)resizedImage:(NSString *)name left:(CGFloat)left top:(CGFloat)top;
+
 @end
